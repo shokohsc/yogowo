@@ -1,0 +1,32 @@
+{
+  "name": "sails-generate-user",
+  "version": "0.10.0",
+  "description": "sails generate user",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "user",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "balderdashy",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "user",
+    "behavior": "overrides `sails generate user`",
+    "sailsVersion": "~0.10.0"
+  }
+}
